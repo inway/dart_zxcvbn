@@ -1,0 +1,8 @@
+name: dart_zxcvbn_tools
+description: Shared tools for dart_zxcvbn
+version: 0.0.0
+homepage: https://github.com/inway/dart_zxcvbn
+repository: https://github.com/inway/dart_zxcvbn
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"

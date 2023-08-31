@@ -1,0 +1,35 @@
+name: dart_zxcvbn
+repository: https://github.com/inway/dart_zxcvbn
+
+ide:
+  intellij:
+    enabled: false
+
+packages:
+  - packages/*
+
+command:
+  version:
+    branch: main
+    message: |
+      chore: publish packages
+
+      {new_package_versions}
+
+scripts:
+  analyze:
+    run: "dart analyze"
+    exec:
+      concurrency: 1
+  format:
+    exec: "dart format --output=none --set-exit-if-changed ."
+  update:
+    exec: "dart run tools/update.dart"
+    packageFilters:
+      dirExists: "tools"
+  test:
+    run: dart test -r github
+    exec:
+      concurrency: 1
+    packageFilters:
+      dirExists: "test"

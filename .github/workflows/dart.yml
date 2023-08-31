@@ -1,0 +1,40 @@
+name: Dart
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: dart-lang/setup-dart@v1
+
+      - name: Dart pub cache
+        uses: actions/cache@v3
+        id: pub-cache
+        with:
+          path: ~/.pub-cache
+          key: ${{ runner.os }}-pub-${{ hashFiles('pubspec.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-pub-
+
+      - name: Install Melos
+        run: dart pub global activate melos
+
+      - name: Bootstrap melos
+        run: melos bootstrap
+
+      - name: Verify formatting
+        run: melos run format
+
+      - name: Analyze project source
+        run: melos run analyze
+
+      - name: Run tests
+        run: melos run test --no-select

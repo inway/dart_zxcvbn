@@ -1,0 +1,6 @@
+include: package:lints/recommended.yaml
+
+linter:
+  rules:
+    unnecessary_brace_in_string_interps: true
+    prefer_single_quotes: true
