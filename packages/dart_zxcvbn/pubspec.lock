@@ -82,7 +82,7 @@ packages:
     source: hosted
     version: "3.0.3"
   dart_zxcvbn_language_common:
-    dependency: "direct main"
+    dependency: "direct dev"
     description:
       path: "../dart_zxcvbn_language_common"
       relative: true
