@@ -1,6 +1,6 @@
 [![dart_zxcvbn](https://img.shields.io/pub/v/dart_zxcvbn.svg)](https://pub.dev/packages/dart_zxcvbn)
-[![dart_zxcvbn](https://img.shields.io/github/license/inway/dart_zxcvbn_wip)](LICENSE)
-[![dart_zxcvbn](https://github.com/inway/dart_zxcvbn_wip/actions/workflows/dart.yml/badge.svg)](https://github.com/inway/dart_zxcvbn_wip/actions/workflows/dart.yml)
+[![dart_zxcvbn](https://img.shields.io/github/license/inway/dart_zxcvbn)](LICENSE)
+[![dart_zxcvbn](https://github.com/inway/dart_zxcvbn/actions/workflows/dart.yml/badge.svg)](https://github.com/inway/dart_zxcvbn/actions/workflows/dart.yml)
 [![melos](https://img.shields.io/badge/maintained%20with-melos-f700ff.svg?style=flat-square)](https://github.com/invertase/melos)
 
 # dart_zxcvbn
