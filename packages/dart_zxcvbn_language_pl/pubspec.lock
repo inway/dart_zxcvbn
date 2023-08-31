@@ -101,7 +101,7 @@ packages:
       path: "../dart_zxcvbn_tools"
       relative: true
     source: path
-    version: "0.0.0"
+    version: "0.0.1"
   file:
     dependency: transitive
     description:
