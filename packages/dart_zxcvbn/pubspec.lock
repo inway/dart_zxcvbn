@@ -87,14 +87,14 @@ packages:
       path: "../dart_zxcvbn_language_common"
       relative: true
     source: path
-    version: "0.0.1"
+    version: "0.0.1+1"
   dart_zxcvbn_language_en:
     dependency: "direct dev"
     description:
       path: "../dart_zxcvbn_language_en"
       relative: true
     source: path
-    version: "0.0.1"
+    version: "0.0.1+1"
   file:
     dependency: transitive
     description:

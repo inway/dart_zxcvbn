@@ -79,14 +79,14 @@ packages:
       path: "../dart_zxcvbn"
       relative: true
     source: path
-    version: "0.0.1"
+    version: "0.0.1+1"
   dart_zxcvbn_tools:
     dependency: "direct dev"
     description:
       path: "../dart_zxcvbn_tools"
       relative: true
     source: path
-    version: "0.0.1"
+    version: "0.0.1+1"
   file:
     dependency: transitive
     description:
