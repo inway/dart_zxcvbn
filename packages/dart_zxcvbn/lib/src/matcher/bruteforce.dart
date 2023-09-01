@@ -40,4 +40,7 @@ class BruteForceMatcher extends Matcher {
 
     return max(guesses, minGuesses);
   }
+
+  @override
+  feedback(EstimatedGuessesMixin match, bool isSoleMatch) => null;
 }

@@ -26,11 +26,11 @@ abstract interface class Matcher {
 
   /// TODO make this abstract when all matchers are implemented
   dynamic scoring(Match match) {
-    throw UnimplementedError();
+    throw UnimplementedError('scoring() not implemented on $runtimeType');
   }
 
   /// TODO make this abstract when all matchers are implemented
-  Feedback feedback(EstimatedGuessesMixin match, bool isSoleMatch) {
-    throw UnimplementedError();
+  Feedback? feedback(EstimatedGuessesMixin match, bool isSoleMatch) {
+    throw UnimplementedError('feedback() not implemented on $runtimeType');
   }
 }
