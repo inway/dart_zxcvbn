@@ -1,3 +1,7 @@
+## 0.0.1+2
+
+ - **FIX**: uncommit & ignore pubspec.lock from packages. ([f8a3f223](https://github.com/inway/dart_zxcvbn/commit/f8a3f223531fd797ba3d34d2585c4e4f8fb0f426))
+
 ## 0.0.1+1
 
  - **FIX**: dependency logic. ([6f3c4d0c](https://github.com/inway/dart_zxcvbn/commit/6f3c4d0ce6c3d09bd7cb37d9bb57ae94179d71b0))

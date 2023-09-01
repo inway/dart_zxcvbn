@@ -15,6 +15,47 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`dart_zxcvbn` - `v0.0.1+2`](#dart_zxcvbn---v0012)
+ - [`dart_zxcvbn_language_common` - `v0.0.1+2`](#dart_zxcvbn_language_common---v0012)
+ - [`dart_zxcvbn_language_en` - `v0.0.1+2`](#dart_zxcvbn_language_en---v0012)
+ - [`dart_zxcvbn_language_pl` - `v0.0.1+2`](#dart_zxcvbn_language_pl---v0012)
+ - [`dart_zxcvbn_tools` - `v0.0.1+2`](#dart_zxcvbn_tools---v0012)
+
+---
+
+#### `dart_zxcvbn` - `v0.0.1+2`
+
+ - **FIX**: uncommit & ignore pubspec.lock from packages. ([f8a3f223](https://github.com/inway/dart_zxcvbn/commit/f8a3f223531fd797ba3d34d2585c4e4f8fb0f426))
+
+#### `dart_zxcvbn_language_common` - `v0.0.1+2`
+
+ - **FIX**: uncommit & ignore pubspec.lock from packages. ([f8a3f223](https://github.com/inway/dart_zxcvbn/commit/f8a3f223531fd797ba3d34d2585c4e4f8fb0f426))
+
+#### `dart_zxcvbn_language_en` - `v0.0.1+2`
+
+ - **FIX**: uncommit & ignore pubspec.lock from packages. ([f8a3f223](https://github.com/inway/dart_zxcvbn/commit/f8a3f223531fd797ba3d34d2585c4e4f8fb0f426))
+
+#### `dart_zxcvbn_language_pl` - `v0.0.1+2`
+
+ - **FIX**: uncommit & ignore pubspec.lock from packages. ([f8a3f223](https://github.com/inway/dart_zxcvbn/commit/f8a3f223531fd797ba3d34d2585c4e4f8fb0f426))
+
+#### `dart_zxcvbn_tools` - `v0.0.1+2`
+
+ - **FIX**: uncommit & ignore pubspec.lock from packages. ([f8a3f223](https://github.com/inway/dart_zxcvbn/commit/f8a3f223531fd797ba3d34d2585c4e4f8fb0f426))
+
+
+## 2023-09-01
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`dart_zxcvbn` - `v0.0.1+1`](#dart_zxcvbn---v0011)
  - [`dart_zxcvbn_language_common` - `v0.0.1+1`](#dart_zxcvbn_language_common---v0011)
  - [`dart_zxcvbn_language_en` - `v0.0.1+1`](#dart_zxcvbn_language_en---v0011)
