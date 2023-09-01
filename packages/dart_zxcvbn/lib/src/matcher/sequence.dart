@@ -68,8 +68,6 @@ class SequenceMatcher extends Matcher {
       }
     }
 
-    if (lastDelta == null) throw Exception('lastDelta is null');
-
     update(
       i: i,
       j: passwordLength - 1,
@@ -84,12 +82,12 @@ class SequenceMatcher extends Matcher {
   void update({
     required int i,
     required int j,
-    required int delta,
+    required int? delta,
     required String password,
     required List<SequenceMatch> result,
   }) {
-    if (j - i > 1 || delta.abs() == 1) {
-      final int absoluteDelta = delta.abs();
+    if (j - i > 1 || delta?.abs() == 1) {
+      final int absoluteDelta = delta?.abs() ?? 0;
       if (absoluteDelta > 0 && absoluteDelta <= maxDelta) {
         final token = password.substring(i, j + 1);
         final (sequenceName, sequenceSpace) = getSequence(token);
@@ -100,7 +98,7 @@ class SequenceMatcher extends Matcher {
           token: token,
           sequenceName: sequenceName,
           sequenceSpace: sequenceSpace,
-          ascending: delta > 0,
+          ascending: delta != null ? delta > 0 : false,
         ));
       }
     }
