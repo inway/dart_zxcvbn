@@ -1,3 +1,7 @@
+## 0.0.4
+
+ - **FEAT**: allow delta to be null in sequence matcher. ([157fed51](https://github.com/inway/dart_zxcvbn/commit/157fed51cc3916efdf97819b3602a5e6d24a1726))
+
 ## 0.0.3
 
  - **FEAT**: add missing feedback from bruteforce matcher. ([ffdc01e9](https://github.com/inway/dart_zxcvbn/commit/ffdc01e9e5f4aa7e9790a8e9065dc6b840b55456))

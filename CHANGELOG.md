@@ -15,6 +15,38 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`dart_zxcvbn` - `v0.0.4`](#dart_zxcvbn---v004)
+ - [`dart_zxcvbn_language_common` - `v0.0.1+5`](#dart_zxcvbn_language_common---v0015)
+ - [`dart_zxcvbn_language_pl` - `v0.0.1+5`](#dart_zxcvbn_language_pl---v0015)
+ - [`dart_zxcvbn_language_en` - `v0.0.1+5`](#dart_zxcvbn_language_en---v0015)
+
+Packages with dependency updates only:
+
+> Packages listed below depend on other packages in this workspace that have had changes. Their versions have been incremented to bump the minimum dependency versions of the packages they depend upon in this project.
+
+ - `dart_zxcvbn_language_common` - `v0.0.1+5`
+ - `dart_zxcvbn_language_pl` - `v0.0.1+5`
+ - `dart_zxcvbn_language_en` - `v0.0.1+5`
+
+---
+
+#### `dart_zxcvbn` - `v0.0.4`
+
+ - **FEAT**: allow delta to be null in sequence matcher. ([157fed51](https://github.com/inway/dart_zxcvbn/commit/157fed51cc3916efdf97819b3602a5e6d24a1726))
+
+
+## 2023-09-01
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`dart_zxcvbn` - `v0.0.3`](#dart_zxcvbn---v003)
  - [`dart_zxcvbn_language_common` - `v0.0.1+4`](#dart_zxcvbn_language_common---v0014)
  - [`dart_zxcvbn_language_pl` - `v0.0.1+4`](#dart_zxcvbn_language_pl---v0014)
