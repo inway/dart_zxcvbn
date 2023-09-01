@@ -114,59 +114,6 @@ class EstimatedGuess extends Match with EstimatedGuessesMixin {
       ')';
 }
 
-// abstract interface class EstimatedGuesses extends Match {
-//   final String pattern;
-//   final int i;
-//   final int j;
-//   final String token;
-//   final double guesses;
-//   final double guessesLog10;
-//   final Map<String, dynamic> extraData;
-
-//   EstimatedGuesses({
-//     required this.pattern,
-//     required this.i,
-//     required this.j,
-//     required this.token,
-//     required this.guesses,
-//     required this.guessesLog10,
-//     required this.extraData,
-//   });
-
-//   @override
-//   bool operator ==(Object other) =>
-//       identical(this, other) ||
-//       other is EstimatedGuesses &&
-//           pattern == other.pattern &&
-//           i == other.i &&
-//           j == other.j &&
-//           token == other.token &&
-//           guesses == other.guesses &&
-//           guessesLog10 == other.guessesLog10 &&
-//           MapEquality().equals(extraData, other.extraData);
-
-//   @override
-//   int get hashCode =>
-//       pattern.hashCode ^
-//       i.hashCode ^
-//       j.hashCode ^
-//       token.hashCode ^
-//       guesses.hashCode ^
-//       guessesLog10.hashCode ^
-//       extraData.hashCode;
-
-//   @override
-//   String toString() => 'EstimatedGuesses('
-//       'pattern: $pattern, '
-//       'i: $i, '
-//       'j: $j, '
-//       'token: $token, '
-//       'guesses: $guesses, '
-//       'guessesLog10: $guessesLog10, '
-//       'extraData: $extraData'
-//       ')';
-// }
-
 EstimatedGuessesMixin estimateGuesses(Match match, String password) {
   final Map<String, dynamic> extraData = {};
 
