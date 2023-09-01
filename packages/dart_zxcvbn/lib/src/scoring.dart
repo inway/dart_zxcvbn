@@ -280,9 +280,11 @@ class ScoringHelper {
     int sequenceLength = 0; // TODO was: optimal.m[k].length;
 
     double g = double.infinity;
-    final Map<int, double> temp = optimal.g[k];
+    // This is to mimic javascript behavior when accessing an array by negative
+    // key which returns undefined - opposite to dart which throws an exception.
+    final Map<int, double>? temp = k.isNegative ? null : optimal.g[k];
 
-    if (temp.isNotEmpty) {
+    if (temp != null) {
       temp.forEach((candidateSequenceLength, candidateMetricMatch) {
         if (candidateMetricMatch < g) {
           sequenceLength = candidateSequenceLength;
