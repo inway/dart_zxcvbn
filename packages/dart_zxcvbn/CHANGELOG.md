@@ -1,3 +1,7 @@
+## 0.0.2
+
+ - **FEAT**: downgrade collection. ([6b848340](https://github.com/inway/dart_zxcvbn/commit/6b84834003460bec8c848235bc2bd4446cbd4b19))
+
 ## 0.0.1+2
 
  - **FIX**: uncommit & ignore pubspec.lock from packages. ([f8a3f223](https://github.com/inway/dart_zxcvbn/commit/f8a3f223531fd797ba3d34d2585c4e4f8fb0f426))
