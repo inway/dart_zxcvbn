@@ -8,7 +8,7 @@ environment:
   sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
-  collection: ^1.18.0
+  collection: ^1.17.0
 
 dev_dependencies:
   dart_zxcvbn_language_common: ^0.0.1+2
