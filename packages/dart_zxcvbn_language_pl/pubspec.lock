@@ -88,13 +88,6 @@ packages:
       relative: true
     source: path
     version: "0.0.1+1"
-  dart_zxcvbn_language_common:
-    dependency: "direct overridden"
-    description:
-      path: "../dart_zxcvbn_language_common"
-      relative: true
-    source: path
-    version: "0.0.1+1"
   dart_zxcvbn_tools:
     dependency: "direct dev"
     description:
