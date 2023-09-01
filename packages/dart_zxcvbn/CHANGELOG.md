@@ -1,3 +1,7 @@
+## 0.0.4+1
+
+ - **FIX**: issue with negative list index access. ([4b8fdb77](https://github.com/inway/dart_zxcvbn/commit/4b8fdb778a200ca6116f5de8a65463fba8536695))
+
 ## 0.0.4
 
  - **FEAT**: allow delta to be null in sequence matcher. ([157fed51](https://github.com/inway/dart_zxcvbn/commit/157fed51cc3916efdf97819b3602a5e6d24a1726))

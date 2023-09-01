@@ -15,6 +15,38 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`dart_zxcvbn` - `v0.0.4+1`](#dart_zxcvbn---v0041)
+ - [`dart_zxcvbn_language_common` - `v0.0.1+6`](#dart_zxcvbn_language_common---v0016)
+ - [`dart_zxcvbn_language_pl` - `v0.0.1+6`](#dart_zxcvbn_language_pl---v0016)
+ - [`dart_zxcvbn_language_en` - `v0.0.1+6`](#dart_zxcvbn_language_en---v0016)
+
+Packages with dependency updates only:
+
+> Packages listed below depend on other packages in this workspace that have had changes. Their versions have been incremented to bump the minimum dependency versions of the packages they depend upon in this project.
+
+ - `dart_zxcvbn_language_common` - `v0.0.1+6`
+ - `dart_zxcvbn_language_pl` - `v0.0.1+6`
+ - `dart_zxcvbn_language_en` - `v0.0.1+6`
+
+---
+
+#### `dart_zxcvbn` - `v0.0.4+1`
+
+ - **FIX**: issue with negative list index access. ([4b8fdb77](https://github.com/inway/dart_zxcvbn/commit/4b8fdb778a200ca6116f5de8a65463fba8536695))
+
+
+## 2023-09-01
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`dart_zxcvbn` - `v0.0.4`](#dart_zxcvbn---v004)
  - [`dart_zxcvbn_language_common` - `v0.0.1+5`](#dart_zxcvbn_language_common---v0015)
  - [`dart_zxcvbn_language_pl` - `v0.0.1+5`](#dart_zxcvbn_language_pl---v0015)

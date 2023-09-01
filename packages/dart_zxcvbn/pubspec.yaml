@@ -1,6 +1,6 @@
 name: dart_zxcvbn
 description: A port of @zxcvbn-ts/zxcvbn to Dart.
-version: 0.0.4
+version: 0.0.4+1
 homepage: https://github.com/inway/dart_zxcvbn
 repository: https://github.com/inway/dart_zxcvbn
 
@@ -11,6 +11,6 @@ dependencies:
   collection: ^1.17.0
 
 dev_dependencies:
-  dart_zxcvbn_language_common: ^0.0.1+5
-  dart_zxcvbn_language_en: ^0.0.1+5
+  dart_zxcvbn_language_common: ^0.0.1+6
+  dart_zxcvbn_language_en: ^0.0.1+6
   test: ^1.21.0
