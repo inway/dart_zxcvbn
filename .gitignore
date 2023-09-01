@@ -9,6 +9,7 @@ build/
 # If you don't generate documentation locally you can remove this line.
 doc/api/
 packages/**/doc/api/
+packages/**/pubspec.lock
 
 # dotenv environment variables file
 .env*
