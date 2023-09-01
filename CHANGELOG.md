@@ -15,6 +15,53 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`dart_zxcvbn` - `v0.0.1+1`](#dart_zxcvbn---v0011)
+ - [`dart_zxcvbn_language_common` - `v0.0.1+1`](#dart_zxcvbn_language_common---v0011)
+ - [`dart_zxcvbn_language_en` - `v0.0.1+1`](#dart_zxcvbn_language_en---v0011)
+ - [`dart_zxcvbn_language_pl` - `v0.0.1+1`](#dart_zxcvbn_language_pl---v0011)
+ - [`dart_zxcvbn_tools` - `v0.0.1+1`](#dart_zxcvbn_tools---v0011)
+
+---
+
+#### `dart_zxcvbn` - `v0.0.1+1`
+
+ - **FIX**: dependency logic. ([6f3c4d0c](https://github.com/inway/dart_zxcvbn/commit/6f3c4d0ce6c3d09bd7cb37d9bb57ae94179d71b0))
+ - **FIX**: version constraints. ([efa9b42a](https://github.com/inway/dart_zxcvbn/commit/efa9b42aa93b3cbae61fc49d563ee1870a3ea084))
+ - **DOCS**: add license files prio publishing. ([506d2b80](https://github.com/inway/dart_zxcvbn/commit/506d2b802b3a3d54a8355cf9f0554aaaf4ccd10c))
+
+#### `dart_zxcvbn_language_common` - `v0.0.1+1`
+
+ - **FIX**: version constraints. ([efa9b42a](https://github.com/inway/dart_zxcvbn/commit/efa9b42aa93b3cbae61fc49d563ee1870a3ea084))
+ - **FIX**: broken lock file deps. ([0145a79f](https://github.com/inway/dart_zxcvbn/commit/0145a79f2f6b36da0162436aa157f745674dc409))
+ - **DOCS**: add license files prio publishing. ([506d2b80](https://github.com/inway/dart_zxcvbn/commit/506d2b802b3a3d54a8355cf9f0554aaaf4ccd10c))
+
+#### `dart_zxcvbn_language_en` - `v0.0.1+1`
+
+ - **FIX**: version constraints. ([efa9b42a](https://github.com/inway/dart_zxcvbn/commit/efa9b42aa93b3cbae61fc49d563ee1870a3ea084))
+ - **DOCS**: add license files prio publishing. ([506d2b80](https://github.com/inway/dart_zxcvbn/commit/506d2b802b3a3d54a8355cf9f0554aaaf4ccd10c))
+
+#### `dart_zxcvbn_language_pl` - `v0.0.1+1`
+
+ - **FIX**: version constraints. ([efa9b42a](https://github.com/inway/dart_zxcvbn/commit/efa9b42aa93b3cbae61fc49d563ee1870a3ea084))
+ - **DOCS**: add license files prio publishing. ([506d2b80](https://github.com/inway/dart_zxcvbn/commit/506d2b802b3a3d54a8355cf9f0554aaaf4ccd10c))
+
+#### `dart_zxcvbn_tools` - `v0.0.1+1`
+
+ - **DOCS**: add license files prio publishing. ([506d2b80](https://github.com/inway/dart_zxcvbn/commit/506d2b802b3a3d54a8355cf9f0554aaaf4ccd10c))
+
+
+## 2023-09-01
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`dart_zxcvbn` - `v0.0.1`](#dart_zxcvbn---v001)
  - [`dart_zxcvbn_tools` - `v0.0.1`](#dart_zxcvbn_tools---v001)
  - [`dart_zxcvbn_language_common` - `v0.0.1`](#dart_zxcvbn_language_common---v001)
