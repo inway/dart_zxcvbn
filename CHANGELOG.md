@@ -15,6 +15,38 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`dart_zxcvbn` - `v0.0.3`](#dart_zxcvbn---v003)
+ - [`dart_zxcvbn_language_common` - `v0.0.1+4`](#dart_zxcvbn_language_common---v0014)
+ - [`dart_zxcvbn_language_pl` - `v0.0.1+4`](#dart_zxcvbn_language_pl---v0014)
+ - [`dart_zxcvbn_language_en` - `v0.0.1+4`](#dart_zxcvbn_language_en---v0014)
+
+Packages with dependency updates only:
+
+> Packages listed below depend on other packages in this workspace that have had changes. Their versions have been incremented to bump the minimum dependency versions of the packages they depend upon in this project.
+
+ - `dart_zxcvbn_language_common` - `v0.0.1+4`
+ - `dart_zxcvbn_language_pl` - `v0.0.1+4`
+ - `dart_zxcvbn_language_en` - `v0.0.1+4`
+
+---
+
+#### `dart_zxcvbn` - `v0.0.3`
+
+ - **FEAT**: add missing feedback from bruteforce matcher. ([ffdc01e9](https://github.com/inway/dart_zxcvbn/commit/ffdc01e9e5f4aa7e9790a8e9065dc6b840b55456))
+
+
+## 2023-09-01
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`dart_zxcvbn` - `v0.0.2`](#dart_zxcvbn---v002)
  - [`dart_zxcvbn_language_pl` - `v0.0.1+3`](#dart_zxcvbn_language_pl---v0013)
  - [`dart_zxcvbn_language_en` - `v0.0.1+3`](#dart_zxcvbn_language_en---v0013)

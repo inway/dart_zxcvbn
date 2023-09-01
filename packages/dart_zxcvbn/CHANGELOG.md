@@ -1,3 +1,7 @@
+## 0.0.3
+
+ - **FEAT**: add missing feedback from bruteforce matcher. ([ffdc01e9](https://github.com/inway/dart_zxcvbn/commit/ffdc01e9e5f4aa7e9790a8e9065dc6b840b55456))
+
 ## 0.0.2
 
  - **FEAT**: downgrade collection. ([6b848340](https://github.com/inway/dart_zxcvbn/commit/6b84834003460bec8c848235bc2bd4446cbd4b19))
