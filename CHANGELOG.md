@@ -15,6 +15,37 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`dart_zxcvbn_language_common` - `v0.0.2`](#dart_zxcvbn_language_common---v002)
+ - [`dart_zxcvbn_language_en` - `v0.0.2`](#dart_zxcvbn_language_en---v002)
+ - [`dart_zxcvbn_language_pl` - `v0.0.2`](#dart_zxcvbn_language_pl---v002)
+
+---
+
+#### `dart_zxcvbn_language_common` - `v0.0.2`
+
+ - **FEAT**: fine-tune deps of `language_common`. ([11f31b12](https://github.com/inway/dart_zxcvbn/commit/11f31b12295b5f52c1e2de4f1154eefc165bfb4b))
+
+#### `dart_zxcvbn_language_en` - `v0.0.2`
+
+ - **FEAT**: fine-tune deps of `language_en`. ([ac80738b](https://github.com/inway/dart_zxcvbn/commit/ac80738b38de89cb1879d020a714e9224be7db2f))
+
+#### `dart_zxcvbn_language_pl` - `v0.0.2`
+
+ - **FEAT**: fine-tune deps of `language_pl`. ([92015168](https://github.com/inway/dart_zxcvbn/commit/92015168c244e0debb89e0e183ef16e65dca237b))
+
+
+## 2023-09-04
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`dart_zxcvbn` - `v0.0.5+1`](#dart_zxcvbn---v0051)
  - [`dart_zxcvbn_language_common` - `v0.0.1+8`](#dart_zxcvbn_language_common---v0018)
  - [`dart_zxcvbn_language_pl` - `v0.0.1+8`](#dart_zxcvbn_language_pl---v0018)

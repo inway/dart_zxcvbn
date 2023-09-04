@@ -1,3 +1,7 @@
+## 0.0.2
+
+ - **FEAT**: fine-tune deps of `language_common`. ([11f31b12](https://github.com/inway/dart_zxcvbn/commit/11f31b12295b5f52c1e2de4f1154eefc165bfb4b))
+
 ## 0.0.1+8
 
  - Update a dependency to the latest release.

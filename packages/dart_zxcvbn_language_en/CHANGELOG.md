@@ -1,3 +1,7 @@
+## 0.0.2
+
+ - **FEAT**: fine-tune deps of `language_en`. ([ac80738b](https://github.com/inway/dart_zxcvbn/commit/ac80738b38de89cb1879d020a714e9224be7db2f))
+
 ## 0.0.1+8
 
  - Update a dependency to the latest release.
