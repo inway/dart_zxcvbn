@@ -26,17 +26,17 @@ class Result {
   factory Result.fromJson(Map<String, dynamic> json) => Result(
         feedback: Feedback.fromJson(json['feedback']),
         crackTimesSeconds:
-            CrackTimesSeconds.fromJson(json['crack_times_seconds']),
+            CrackTimesSeconds.fromJson(json['crackTimesSeconds']),
         crackTimesDisplay:
-            CrackTimesDisplay.fromJson(json['crack_times_display']),
-        score: json['score'],
+            CrackTimesDisplay.fromJson(json['crackTimesDisplay']),
+        score: double.tryParse(json['score'].toString()) ?? 0,
         password: json['password'],
-        guesses: json['guesses'],
-        guessesLog10: json['guesses_log10'],
+        guesses: double.tryParse(json['guesses'].toString()) ?? 0,
+        guessesLog10: double.tryParse(json['guessesLog10'].toString()) ?? 0,
         sequence: List<Match>.from(
             json['sequence'].map((match) => Match.fromJson(match)),
             growable: false),
-        calcTime: json['calc_time'],
+        calcTime: int.tryParse(json['calcTime'].toString()) ?? 0,
       );
 
   @override

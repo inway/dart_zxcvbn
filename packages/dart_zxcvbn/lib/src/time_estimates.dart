@@ -15,11 +15,18 @@ class CrackTimesSeconds {
 
   factory CrackTimesSeconds.fromJson(Map<String, dynamic> json) =>
       CrackTimesSeconds(
-        onlineThrottling100PerHour: json['onlineThrottling100PerHour'],
-        onlineNoThrottling10PerSecond: json['onlineNoThrottling10PerSecond'],
-        offlineSlowHashing1e4PerSecond: json['offlineSlowHashing1e4PerSecond'],
-        offlineFastHashing1e10PerSecond:
-            json['offlineFastHashing1e10PerSecond'],
+        onlineThrottling100PerHour:
+            double.tryParse(json['onlineThrottling100PerHour'].toString()) ??
+                0.0,
+        onlineNoThrottling10PerSecond:
+            double.tryParse(json['onlineNoThrottling10PerSecond'].toString()) ??
+                0.0,
+        offlineSlowHashing1e4PerSecond: double.tryParse(
+                json['offlineSlowHashing1e4PerSecond'].toString()) ??
+            0.0,
+        offlineFastHashing1e10PerSecond: double.tryParse(
+                json['offlineFastHashing1e10PerSecond'].toString()) ??
+            0.0,
       );
 
   @override
