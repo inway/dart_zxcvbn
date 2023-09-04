@@ -1,3 +1,7 @@
+## 0.0.5
+
+ - **FEAT**: implement Result.fromJson. ([6e580497](https://github.com/inway/dart_zxcvbn/commit/6e580497231ae5d254f9bae5981ffe8c34cf0b97))
+
 ## 0.0.4+1
 
  - **FIX**: issue with negative list index access. ([4b8fdb77](https://github.com/inway/dart_zxcvbn/commit/4b8fdb778a200ca6116f5de8a65463fba8536695))

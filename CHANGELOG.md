@@ -3,6 +3,38 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2023-09-04
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`dart_zxcvbn` - `v0.0.5`](#dart_zxcvbn---v005)
+ - [`dart_zxcvbn_language_common` - `v0.0.1+7`](#dart_zxcvbn_language_common---v0017)
+ - [`dart_zxcvbn_language_pl` - `v0.0.1+7`](#dart_zxcvbn_language_pl---v0017)
+ - [`dart_zxcvbn_language_en` - `v0.0.1+7`](#dart_zxcvbn_language_en---v0017)
+
+Packages with dependency updates only:
+
+> Packages listed below depend on other packages in this workspace that have had changes. Their versions have been incremented to bump the minimum dependency versions of the packages they depend upon in this project.
+
+ - `dart_zxcvbn_language_common` - `v0.0.1+7`
+ - `dart_zxcvbn_language_pl` - `v0.0.1+7`
+ - `dart_zxcvbn_language_en` - `v0.0.1+7`
+
+---
+
+#### `dart_zxcvbn` - `v0.0.5`
+
+ - **FEAT**: implement Result.fromJson. ([6e580497](https://github.com/inway/dart_zxcvbn/commit/6e580497231ae5d254f9bae5981ffe8c34cf0b97))
+
+
 ## 2023-09-01
 
 ### Changes
