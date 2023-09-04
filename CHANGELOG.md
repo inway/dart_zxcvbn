@@ -15,6 +15,38 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`dart_zxcvbn` - `v0.0.5+1`](#dart_zxcvbn---v0051)
+ - [`dart_zxcvbn_language_common` - `v0.0.1+8`](#dart_zxcvbn_language_common---v0018)
+ - [`dart_zxcvbn_language_pl` - `v0.0.1+8`](#dart_zxcvbn_language_pl---v0018)
+ - [`dart_zxcvbn_language_en` - `v0.0.1+8`](#dart_zxcvbn_language_en---v0018)
+
+Packages with dependency updates only:
+
+> Packages listed below depend on other packages in this workspace that have had changes. Their versions have been incremented to bump the minimum dependency versions of the packages they depend upon in this project.
+
+ - `dart_zxcvbn_language_common` - `v0.0.1+8`
+ - `dart_zxcvbn_language_pl` - `v0.0.1+8`
+ - `dart_zxcvbn_language_en` - `v0.0.1+8`
+
+---
+
+#### `dart_zxcvbn` - `v0.0.5+1`
+
+ - **FIX**: issues with parsing of json data in dart. ([3d5af884](https://github.com/inway/dart_zxcvbn/commit/3d5af88400eb8f4c1083c8f3445dbf82c93e28d4))
+
+
+## 2023-09-04
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`dart_zxcvbn` - `v0.0.5`](#dart_zxcvbn---v005)
  - [`dart_zxcvbn_language_common` - `v0.0.1+7`](#dart_zxcvbn_language_common---v0017)
  - [`dart_zxcvbn_language_pl` - `v0.0.1+7`](#dart_zxcvbn_language_pl---v0017)

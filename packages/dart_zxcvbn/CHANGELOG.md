@@ -1,3 +1,7 @@
+## 0.0.5+1
+
+ - **FIX**: issues with parsing of json data in dart. ([3d5af884](https://github.com/inway/dart_zxcvbn/commit/3d5af88400eb8f4c1083c8f3445dbf82c93e28d4))
+
 ## 0.0.5
 
  - **FEAT**: implement Result.fromJson. ([6e580497](https://github.com/inway/dart_zxcvbn/commit/6e580497231ae5d254f9bae5981ffe8c34cf0b97))
