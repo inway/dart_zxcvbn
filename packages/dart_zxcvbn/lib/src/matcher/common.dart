@@ -1,6 +1,6 @@
 part of '../zxcvbn.dart';
 
-abstract interface class Match {
+interface class Match {
   /// The name of the matcher
   final String pattern;
 
@@ -19,6 +19,13 @@ abstract interface class Match {
     required this.j,
     required this.token,
   });
+
+  factory Match.fromJson(Map<String, dynamic> json) => Match(
+        pattern: json['pattern'],
+        i: json['i'],
+        j: json['j'],
+        token: json['token'],
+      );
 }
 
 abstract interface class Matcher {

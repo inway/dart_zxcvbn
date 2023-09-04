@@ -13,6 +13,15 @@ class CrackTimesSeconds {
     required this.offlineFastHashing1e10PerSecond,
   });
 
+  factory CrackTimesSeconds.fromJson(Map<String, dynamic> json) =>
+      CrackTimesSeconds(
+        onlineThrottling100PerHour: json['onlineThrottling100PerHour'],
+        onlineNoThrottling10PerSecond: json['onlineNoThrottling10PerSecond'],
+        offlineSlowHashing1e4PerSecond: json['offlineSlowHashing1e4PerSecond'],
+        offlineFastHashing1e10PerSecond:
+            json['offlineFastHashing1e10PerSecond'],
+      );
+
   @override
   bool operator ==(Object other) =>
       identical(this, other) ||
@@ -54,6 +63,15 @@ class CrackTimesDisplay {
     required this.offlineSlowHashing1e4PerSecond,
     required this.offlineFastHashing1e10PerSecond,
   });
+
+  factory CrackTimesDisplay.fromJson(Map<String, dynamic> json) =>
+      CrackTimesDisplay(
+        onlineThrottling100PerHour: json['onlineThrottling100PerHour'],
+        onlineNoThrottling10PerSecond: json['onlineNoThrottling10PerSecond'],
+        offlineSlowHashing1e4PerSecond: json['offlineSlowHashing1e4PerSecond'],
+        offlineFastHashing1e10PerSecond:
+            json['offlineFastHashing1e10PerSecond'],
+      );
 
   @override
   bool operator ==(Object other) =>

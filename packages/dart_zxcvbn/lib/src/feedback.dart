@@ -44,6 +44,11 @@ class Feedback {
     List<String>? suggestions,
   }) : this.suggestions = suggestions ?? [];
 
+  factory Feedback.fromJson(Map<String, dynamic> json) => Feedback(
+        warning: json['warning'],
+        suggestions: List<String>.from(json['suggestions'], growable: false),
+      );
+
   factory Feedback.getFeedback(
       double score, List<EstimatedGuessesMixin> sequence) {
     if (sequence.isEmpty) {

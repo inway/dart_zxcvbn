@@ -23,6 +23,22 @@ class Result {
     required this.calcTime,
   });
 
+  factory Result.fromJson(Map<String, dynamic> json) => Result(
+        feedback: Feedback.fromJson(json['feedback']),
+        crackTimesSeconds:
+            CrackTimesSeconds.fromJson(json['crack_times_seconds']),
+        crackTimesDisplay:
+            CrackTimesDisplay.fromJson(json['crack_times_display']),
+        score: json['score'],
+        password: json['password'],
+        guesses: json['guesses'],
+        guessesLog10: json['guesses_log10'],
+        sequence: List<Match>.from(
+            json['sequence'].map((match) => Match.fromJson(match)),
+            growable: false),
+        calcTime: json['calc_time'],
+      );
+
   @override
   bool operator ==(Object other) =>
       identical(this, other) ||
