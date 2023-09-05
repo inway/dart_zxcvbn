@@ -7,7 +7,7 @@ final Map<String, Matcher Function()> _defaultMatchers = {
   // regex: regexMatcher,
   // repeat: repeatMatcher,
   'sequence': () => SequenceMatcher(),
-  // spatial: spatialMatcher,
+  'spatial': () => SpatialMatcher(),
   // separator: separatorMatcher,
 };
 
