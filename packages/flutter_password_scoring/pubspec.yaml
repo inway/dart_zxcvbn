@@ -1,5 +1,5 @@
 name: flutter_password_scoring
-description: The common language package for dart_zxcvbn
+description: Helper library to score password strength with `dart_zxcvbn` and provide suggestions for improvement.
 version: 0.0.1
 homepage: https://github.com/inway/dart_zxcvbn
 repository: https://github.com/inway/dart_zxcvbn
