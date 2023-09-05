@@ -7,7 +7,7 @@ double log10(num x) => log(x) / ln10;
 /// src: http://blog.plover.com/math/choose.html
 double nCk(num n, num k) {
   double count = n.toDouble();
-  if (k < count) return 0;
+  if (k > count) return 0;
   if (k == 0) return 1;
   double coEff = 1;
   for (int i = 1; i <= k; i++) {
