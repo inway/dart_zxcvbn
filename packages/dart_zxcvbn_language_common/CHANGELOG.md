@@ -1,3 +1,9 @@
+## 0.1.0
+
+> Note: This release has breaking changes.
+
+ - **BREAKING** **REFACTOR**: implement AdjacencyGraphs as mixin. ([73ac4b07](https://github.com/inway/dart_zxcvbn/commit/73ac4b0779f5ef52a5c4e82ca98336a6af72ade0))
+
 ## 0.0.2
 
  - **FEAT**: fine-tune deps of `language_common`. ([11f31b12](https://github.com/inway/dart_zxcvbn/commit/11f31b12295b5f52c1e2de4f1154eefc165bfb4b))

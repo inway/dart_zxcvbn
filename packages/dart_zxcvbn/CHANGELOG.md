@@ -1,3 +1,13 @@
+## 0.1.0
+
+> Note: This release has breaking changes.
+
+ - **FIX**: wrong operator in nCk helper. ([21274ef6](https://github.com/inway/dart_zxcvbn/commit/21274ef654a4639347ac2c748d236abfc52bc018))
+ - **FIX**: userInputs dictionary handling. ([f41edb92](https://github.com/inway/dart_zxcvbn/commit/f41edb92e198c1f06ab0a69628fe531f0d1b73bc))
+ - **FIX**: token should be taken from raw password string. ([86f0c143](https://github.com/inway/dart_zxcvbn/commit/86f0c1433b3374955ee2c17830ee1d39f5983d1c))
+ - **FEAT**: implement spatial matcher. ([780fbd4f](https://github.com/inway/dart_zxcvbn/commit/780fbd4f0c8aa183b0e854ad39780537c927478a))
+ - **BREAKING** **REFACTOR**: implement AdjacencyGraphs as mixin. ([73ac4b07](https://github.com/inway/dart_zxcvbn/commit/73ac4b0779f5ef52a5c4e82ca98336a6af72ade0))
+
 ## 0.0.5+1
 
  - **FIX**: issues with parsing of json data in dart. ([3d5af884](https://github.com/inway/dart_zxcvbn/commit/3d5af88400eb8f4c1083c8f3445dbf82c93e28d4))

@@ -3,6 +3,46 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2023-09-05
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - [`dart_zxcvbn` - `v0.1.0`](#dart_zxcvbn---v010)
+ - [`dart_zxcvbn_language_common` - `v0.1.0`](#dart_zxcvbn_language_common---v010)
+ - [`dart_zxcvbn_language_en` - `v0.1.0`](#dart_zxcvbn_language_en---v010)
+ - [`dart_zxcvbn_language_pl` - `v0.1.0`](#dart_zxcvbn_language_pl---v010)
+
+Packages with other changes:
+
+ - There are no other changes in this release.
+
+---
+
+#### `dart_zxcvbn` - `v0.1.0`
+
+ - **FIX**: wrong operator in nCk helper. ([21274ef6](https://github.com/inway/dart_zxcvbn/commit/21274ef654a4639347ac2c748d236abfc52bc018))
+ - **FIX**: userInputs dictionary handling. ([f41edb92](https://github.com/inway/dart_zxcvbn/commit/f41edb92e198c1f06ab0a69628fe531f0d1b73bc))
+ - **FIX**: token should be taken from raw password string. ([86f0c143](https://github.com/inway/dart_zxcvbn/commit/86f0c1433b3374955ee2c17830ee1d39f5983d1c))
+ - **FEAT**: implement spatial matcher. ([780fbd4f](https://github.com/inway/dart_zxcvbn/commit/780fbd4f0c8aa183b0e854ad39780537c927478a))
+ - **BREAKING** **REFACTOR**: implement AdjacencyGraphs as mixin. ([73ac4b07](https://github.com/inway/dart_zxcvbn/commit/73ac4b0779f5ef52a5c4e82ca98336a6af72ade0))
+
+#### `dart_zxcvbn_language_common` - `v0.1.0`
+
+ - **BREAKING** **REFACTOR**: implement AdjacencyGraphs as mixin. ([73ac4b07](https://github.com/inway/dart_zxcvbn/commit/73ac4b0779f5ef52a5c4e82ca98336a6af72ade0))
+
+#### `dart_zxcvbn_language_en` - `v0.1.0`
+
+ - **BREAKING** **REFACTOR**: implement AdjacencyGraphs as mixin. ([73ac4b07](https://github.com/inway/dart_zxcvbn/commit/73ac4b0779f5ef52a5c4e82ca98336a6af72ade0))
+
+#### `dart_zxcvbn_language_pl` - `v0.1.0`
+
+ - **BREAKING** **REFACTOR**: implement AdjacencyGraphs as mixin. ([73ac4b07](https://github.com/inway/dart_zxcvbn/commit/73ac4b0779f5ef52a5c4e82ca98336a6af72ade0))
+
+
 ## 2023-09-04
 
 ### Changes
