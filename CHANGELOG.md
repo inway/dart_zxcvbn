@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2023-09-06
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`flutter_password_scoring` - `v0.0.1`](#flutter_password_scoring---v001)
+
+---
+
+#### `flutter_password_scoring` - `v0.0.1`
+
+ - **FEAT**: introduce flutter package. ([d1281bb1](https://github.com/inway/dart_zxcvbn/commit/d1281bb17f8b73079367a7cf2b40c306a9ee7fe1))
+
+
 ## 2023-09-05
 
 ### Changes
