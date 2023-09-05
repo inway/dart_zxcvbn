@@ -178,6 +178,11 @@ class DefaultOptions extends Options {
   }
 
   ///
+  Map<String, int> _buildSanitizedRankedDictionary(List<String> orderedList) =>
+      _buildRankedDictionary(
+          orderedList.map((e) => e.toLowerCase()).toList(growable: false));
+
+  ///
   int _getRankedDictionariesMaxWordSize(List<String> list) {
     final lengths = list.map((e) => e.length);
 
@@ -210,12 +215,13 @@ class DefaultOptions extends Options {
       dictionary.set('userInputs', []);
     }
 
-    final userInputs = dictionary.get('userInputs')!;
+    final userInputsDictionary = dictionary.get('userInputs')!;
 
-    userInputs.addAll(userInputs);
+    userInputsDictionary.addAll(userInputs);
 
-    rankedDictionaries['userInputs'] = _buildRankedDictionary(userInputs);
+    rankedDictionaries['userInputs'] =
+        _buildSanitizedRankedDictionary(userInputsDictionary);
     rankedDictionariesMaxWordSize['userInputs'] =
-        _getRankedDictionariesMaxWordSize(userInputs);
+        _getRankedDictionariesMaxWordSize(userInputsDictionary);
   }
 }
