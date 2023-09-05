@@ -45,7 +45,7 @@ final result = zxcvbn('test');
 - [ ] regex matcher
 - [ ] repeat matcher
 - [x] sequence matcher
-- [ ] spatial matcher
+- [x] spatial matcher
 - [ ] after implementing all matchers and passing all upstream tests with the
   same results, refactor library and try to remove 'part/part of' in favor of
   'import/export'
