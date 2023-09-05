@@ -6,7 +6,7 @@ part 'passwords.dart';
 
 class LanguageCommon implements LanguagePack {
   @override
-  AdjacencyGraphs adjacencyGraphs = LangageCommonAdjacencyGraphs();
+  AdjacencyGraphsMixin adjacencyGraphs = LangageCommonAdjacencyGraphs();
 
   @override
   Dictionary dictionary = Dictionary({

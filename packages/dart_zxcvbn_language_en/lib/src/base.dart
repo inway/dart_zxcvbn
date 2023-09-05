@@ -9,7 +9,7 @@ part 'wikipedia.dart';
 
 class LanguageEn implements LanguagePack {
   @override
-  AdjacencyGraphs? adjacencyGraphs;
+  AdjacencyGraphsMixin? adjacencyGraphs;
 
   @override
   Dictionary dictionary = Dictionary({

@@ -11,7 +11,7 @@ part 'wikipedia.dart';
 
 class LanguagePl implements LanguagePack {
   @override
-  AdjacencyGraphs? adjacencyGraphs;
+  AdjacencyGraphsMixin? adjacencyGraphs;
 
   @override
   Dictionary dictionary = Dictionary({

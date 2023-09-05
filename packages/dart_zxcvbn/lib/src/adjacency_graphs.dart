@@ -6,11 +6,6 @@ class AdjacencyGraph {
   const AdjacencyGraph(this.graph);
 }
 
-abstract interface class AdjacencyGraphs {
-  abstract final AdjacencyGraph azerty;
-  abstract final AdjacencyGraph qwerty;
-  abstract final AdjacencyGraph qwertz;
-  abstract final AdjacencyGraph dvorak;
-  abstract final AdjacencyGraph keypad;
-  abstract final AdjacencyGraph keypadMac;
+mixin AdjacencyGraphsMixin {
+  Map<String, AdjacencyGraph> get entries;
 }

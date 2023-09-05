@@ -35,7 +35,7 @@ class Options {
 
   /// Defines keyboard layouts as an object which are used to find sequences.
   /// Already implemented layouts can be found in [dart_zxcvbn_language_common]
-  AdjacencyGraphs? graphs;
+  AdjacencyGraphsMixin? graphs;
 
   /// Defines if the levenshtein algorithm should be used. This will be only
   /// used on the complete password and not on parts of it. This will decrease
@@ -98,7 +98,7 @@ class DefaultOptions extends Options {
     // TODO
     // this.matchers = newOptions.matchers;
     // this.l33tTable = newOptions.l33tTable;
-    // this.graphs = newOptions.graphs;
+    this.graphs = newOptions.graphs;
   }
 
   Dictionary get dictionary => _dictionary;
