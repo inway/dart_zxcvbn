@@ -23,6 +23,7 @@ This is a melos managed monorepo containing the following packages:
 | dart_zxcvbn_language_en     |                       | [README](packages/dart_zxcvbn_language_en/README.md) [pub](https://pub.dev/packages/dart_zxcvbn_language_en)         |
 | dart_zxcvbn_language_pl     |                       | [README](packages/dart_zxcvbn_language_pl/README.md) [pub](https://pub.dev/packages/dart_zxcvbn_language_pl)         |
 | dart_zxcvbn_tools           | Internal use helpers  | [README](packages/dart_zxcvbn_tools/README.md) [pub](https://pub.dev/packages/dart_zxcvbn_tools)                     |
+| flutter_password_scoring    | Mostly implemented    | [README](packages/flutter_password_scoring/README.md) [pub](https://pub.dev/packages/flutter_password_scoring)       |
 
 ## Credits
 

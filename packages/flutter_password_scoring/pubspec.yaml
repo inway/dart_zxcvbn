@@ -1,0 +1,16 @@
+name: flutter_password_scoring
+description: The common language package for dart_zxcvbn
+version: 0.0.1
+homepage: https://github.com/inway/dart_zxcvbn
+repository: https://github.com/inway/dart_zxcvbn
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.0.0"
+
+dependencies:
+  dart_zxcvbn: ^0.1.0
+  flutter:
+    sdk: flutter
+
+flutter:
