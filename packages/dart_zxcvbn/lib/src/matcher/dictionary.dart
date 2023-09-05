@@ -323,7 +323,7 @@ abstract interface class DictionaryMatcherBase extends Matcher {
 
     double variations = 0;
     final int variationLength = min(upperCaseCount, lowerCaseCount);
-    for (int i = 1; i <= variationLength; i += 1) {
+    for (int i = 1; i <= variationLength; i++) {
       variations += nCk(upperCaseCount + lowerCaseCount, i);
     }
     return variations;
