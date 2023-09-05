@@ -229,7 +229,7 @@ abstract interface class DictionaryMatcherBase extends Matcher {
               DictionaryMatch(
                 i: i,
                 j: j,
-                token: usedPassword,
+                token: password.substring(i, j + 1),
                 matchedWord: usedPassword,
                 rank: rank,
                 dictionaryName: dictionaryName,
