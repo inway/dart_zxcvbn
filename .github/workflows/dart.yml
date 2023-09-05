@@ -15,6 +15,12 @@ jobs:
 
       - uses: dart-lang/setup-dart@v1
 
+      - name: Clone Flutter repository with stable channel
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
       - name: Dart pub cache
         uses: actions/cache@v3
         id: pub-cache
