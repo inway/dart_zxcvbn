@@ -15,6 +15,54 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`dart_zxcvbn` - `v0.1.0+1`](#dart_zxcvbn---v0101)
+ - [`dart_zxcvbn_language_common` - `v0.1.0+1`](#dart_zxcvbn_language_common---v0101)
+ - [`dart_zxcvbn_language_en` - `v0.1.0+1`](#dart_zxcvbn_language_en---v0101)
+ - [`dart_zxcvbn_language_pl` - `v0.1.0+1`](#dart_zxcvbn_language_pl---v0101)
+ - [`dart_zxcvbn_tools` - `v0.0.1+3`](#dart_zxcvbn_tools---v0013)
+ - [`flutter_password_scoring` - `v0.0.2`](#flutter_password_scoring---v002)
+
+---
+
+#### `dart_zxcvbn` - `v0.1.0+1`
+
+ - **DOCS**: update descriptions of all packages. ([78a9fa76](https://github.com/inway/dart_zxcvbn/commit/78a9fa76f66eecbccd85bbe850dd2823f6a0aa0e))
+
+#### `dart_zxcvbn_language_common` - `v0.1.0+1`
+
+ - **DOCS**: update descriptions of all packages. ([78a9fa76](https://github.com/inway/dart_zxcvbn/commit/78a9fa76f66eecbccd85bbe850dd2823f6a0aa0e))
+
+#### `dart_zxcvbn_language_en` - `v0.1.0+1`
+
+ - **DOCS**: update descriptions of all packages. ([78a9fa76](https://github.com/inway/dart_zxcvbn/commit/78a9fa76f66eecbccd85bbe850dd2823f6a0aa0e))
+
+#### `dart_zxcvbn_language_pl` - `v0.1.0+1`
+
+ - **DOCS**: update descriptions of all packages. ([78a9fa76](https://github.com/inway/dart_zxcvbn/commit/78a9fa76f66eecbccd85bbe850dd2823f6a0aa0e))
+
+#### `dart_zxcvbn_tools` - `v0.0.1+3`
+
+ - **DOCS**: update descriptions of all packages. ([78a9fa76](https://github.com/inway/dart_zxcvbn/commit/78a9fa76f66eecbccd85bbe850dd2823f6a0aa0e))
+
+#### `flutter_password_scoring` - `v0.0.2`
+
+ - **FEAT**: introduce flutter package. ([526bb0a2](https://github.com/inway/dart_zxcvbn/commit/526bb0a2425796d272afa4aa421e214fae19c64f))
+ - **FEAT**: introduce flutter package. ([d1281bb1](https://github.com/inway/dart_zxcvbn/commit/d1281bb17f8b73079367a7cf2b40c306a9ee7fe1))
+ - **DOCS**: update descriptions of all packages. ([78a9fa76](https://github.com/inway/dart_zxcvbn/commit/78a9fa76f66eecbccd85bbe850dd2823f6a0aa0e))
+
+
+## 2023-09-06
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`flutter_password_scoring` - `v0.0.1`](#flutter_password_scoring---v001)
 
 ---

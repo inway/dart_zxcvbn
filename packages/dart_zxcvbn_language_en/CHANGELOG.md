@@ -1,3 +1,7 @@
+## 0.1.0+1
+
+ - **DOCS**: update descriptions of all packages. ([78a9fa76](https://github.com/inway/dart_zxcvbn/commit/78a9fa76f66eecbccd85bbe850dd2823f6a0aa0e))
+
 ## 0.1.0
 
 > Note: This release has breaking changes.
