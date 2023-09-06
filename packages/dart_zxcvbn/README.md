@@ -36,13 +36,13 @@ final result = zxcvbn('test');
 
 ## Related packages
 
-| Package                     | Details                                                                                                                 |
-| --------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| dart_zxcvbn                 | [README](packages/dart_zxcvbn/README.md) \| [pub](https://pub.dev/packages/dart_zxcvbn)                                 |
-| dart_zxcvbn_language_common | [README](packages/dart_zxcvbn_language_common/README.md) \| [pub](https://pub.dev/packages/dart_zxcvbn_language_common) |
-| dart_zxcvbn_language_en     | [README](packages/dart_zxcvbn_language_en/README.md) \| [pub](https://pub.dev/packages/dart_zxcvbn_language_en)         |
-| dart_zxcvbn_language_pl     | [README](packages/dart_zxcvbn_language_pl/README.md) \| [pub](https://pub.dev/packages/dart_zxcvbn_language_pl)         |
-| flutter_password_scoring    | [README](packages/flutter_password_scoring/README.md) \| [pub](https://pub.dev/packages/flutter_password_scoring)       |
+| Package                     | Details                                                                                                                                                                |
+| --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| dart_zxcvbn                 | [README](https://github.com/inway/dart_zxcvbn/blob/main/packages/dart_zxcvbn/README.md) \| [pub](https://pub.dev/packages/dart_zxcvbn)                                 |
+| dart_zxcvbn_language_common | [README](https://github.com/inway/dart_zxcvbn/blob/main/packages/dart_zxcvbn_language_common/README.md) \| [pub](https://pub.dev/packages/dart_zxcvbn_language_common) |
+| dart_zxcvbn_language_en     | [README](https://github.com/inway/dart_zxcvbn/blob/main/packages/dart_zxcvbn_language_en/README.md) \| [pub](https://pub.dev/packages/dart_zxcvbn_language_en)         |
+| dart_zxcvbn_language_pl     | [README](https://github.com/inway/dart_zxcvbn/blob/main/packages/dart_zxcvbn_language_pl/README.md) \| [pub](https://pub.dev/packages/dart_zxcvbn_language_pl)         |
+| flutter_password_scoring    | [README](https://github.com/inway/dart_zxcvbn/blob/main/packages/flutter_password_scoring/README.md) \| [pub](https://pub.dev/packages/flutter_password_scoring)       |
 
 ## TODO
 
