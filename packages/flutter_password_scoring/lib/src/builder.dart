@@ -9,7 +9,7 @@ import 'message.dart';
 ///
 /// It takes cate of initiaizing the [PasswordScoringHelper] and disposing it
 /// when the widget is disposed. It also watches for changes in the [Locale] and
-/// sends it to the [PasswordScoringHelper].
+/// sends it to the [PasswordScoringHandler].
 class PasswordScoringBuilder extends StatefulWidget {
   const PasswordScoringBuilder({
     super.key,
