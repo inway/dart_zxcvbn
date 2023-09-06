@@ -14,7 +14,7 @@ typedef PasswordScoringHandler = Future<void> Function(SendPort);
 /// Helper class to communicate with the [Isolate] and send/receive messages.
 /// It will send [Locale] or [String] messages and receive [Result] messages.
 class PasswordScoringHelper {
-  static final StreamController<PasswordScoringMessage> _controller =
+  final StreamController<PasswordScoringMessage> _controller =
       StreamController<PasswordScoringMessage>();
   final ReceivePort _responseStream = ReceivePort();
 
