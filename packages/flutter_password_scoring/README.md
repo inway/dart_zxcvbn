@@ -30,8 +30,8 @@ facade for `StreamBuilder`), and that's where the widget tree is constructed.
    import 'package:dart_zxcvbn_language_en/dart_zxcvbn_language_en.dart';
 
    Future<void> handleScoring(SendPort sendPort) async {
-     ReceivePort receiverPort = ReceivePort();
-     sendPort.send(receiverPort.sendPort);
+     ReceivePort receivePort = ReceivePort();
+     sendPort.send(receivePort.sendPort);
 
      final langCommon = LanguageCommon();
      final langEn = LanguageEn();
@@ -48,7 +48,7 @@ facade for `StreamBuilder`), and that's where the widget tree is constructed.
      // Used to refresh response when locale changes
      String lastPassword = '';
 
-     await for (var message in receiverPort) {
+     await for (var message in receivePort) {
        if (message is Locale) {
          zxcvbn.setOptions(Options(
            translations: message.languageCode == 'en'
