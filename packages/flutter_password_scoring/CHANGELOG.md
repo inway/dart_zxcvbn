@@ -1,3 +1,8 @@
+## 0.0.2+1
+
+ - **FIX**: remove static modifier from controller. ([6ff6182a](https://github.com/inway/dart_zxcvbn/commit/6ff6182a23e68ac16e1ff1523785285a9ff4d4da))
+ - **DOCS**: add info about related packages. ([9375bea2](https://github.com/inway/dart_zxcvbn/commit/9375bea256001850d7dcf89e4a8347da68666839))
+
 ## 0.0.2
 
  - **FEAT**: introduce flutter package. ([526bb0a2](https://github.com/inway/dart_zxcvbn/commit/526bb0a2425796d272afa4aa421e214fae19c64f))

@@ -1,6 +1,6 @@
 name: dart_zxcvbn_tools
 description: Shared tools for dart_zxcvbn for internal use with generating language packages from upstream data.
-version: 0.0.1+3
+version: 0.0.1+4
 homepage: https://github.com/inway/dart_zxcvbn
 repository: https://github.com/inway/dart_zxcvbn
 

@@ -15,6 +15,54 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`dart_zxcvbn` - `v0.1.0+2`](#dart_zxcvbn---v0102)
+ - [`dart_zxcvbn_language_common` - `v0.1.0+2`](#dart_zxcvbn_language_common---v0102)
+ - [`dart_zxcvbn_language_en` - `v0.1.0+2`](#dart_zxcvbn_language_en---v0102)
+ - [`dart_zxcvbn_language_pl` - `v0.1.0+2`](#dart_zxcvbn_language_pl---v0102)
+ - [`dart_zxcvbn_tools` - `v0.0.1+4`](#dart_zxcvbn_tools---v0014)
+ - [`flutter_password_scoring` - `v0.0.2+1`](#flutter_password_scoring---v0021)
+
+---
+
+#### `dart_zxcvbn` - `v0.1.0+2`
+
+ - **DOCS**: add info about related packages. ([9375bea2](https://github.com/inway/dart_zxcvbn/commit/9375bea256001850d7dcf89e4a8347da68666839))
+ - **DOCS**: add links to related packages. ([9d29c91d](https://github.com/inway/dart_zxcvbn/commit/9d29c91d04f12a67e775e6e6738eacb78b96492e))
+
+#### `dart_zxcvbn_language_common` - `v0.1.0+2`
+
+ - **DOCS**: add info about related packages. ([9375bea2](https://github.com/inway/dart_zxcvbn/commit/9375bea256001850d7dcf89e4a8347da68666839))
+
+#### `dart_zxcvbn_language_en` - `v0.1.0+2`
+
+ - **DOCS**: add info about related packages. ([9375bea2](https://github.com/inway/dart_zxcvbn/commit/9375bea256001850d7dcf89e4a8347da68666839))
+
+#### `dart_zxcvbn_language_pl` - `v0.1.0+2`
+
+ - **DOCS**: add info about related packages. ([9375bea2](https://github.com/inway/dart_zxcvbn/commit/9375bea256001850d7dcf89e4a8347da68666839))
+
+#### `dart_zxcvbn_tools` - `v0.0.1+4`
+
+ - **DOCS**: add info about related packages. ([9375bea2](https://github.com/inway/dart_zxcvbn/commit/9375bea256001850d7dcf89e4a8347da68666839))
+
+#### `flutter_password_scoring` - `v0.0.2+1`
+
+ - **FIX**: remove static modifier from controller. ([6ff6182a](https://github.com/inway/dart_zxcvbn/commit/6ff6182a23e68ac16e1ff1523785285a9ff4d4da))
+ - **DOCS**: add info about related packages. ([9375bea2](https://github.com/inway/dart_zxcvbn/commit/9375bea256001850d7dcf89e4a8347da68666839))
+
+
+## 2023-09-06
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`dart_zxcvbn` - `v0.1.0+1`](#dart_zxcvbn---v0101)
  - [`dart_zxcvbn_language_common` - `v0.1.0+1`](#dart_zxcvbn_language_common---v0101)
  - [`dart_zxcvbn_language_en` - `v0.1.0+1`](#dart_zxcvbn_language_en---v0101)

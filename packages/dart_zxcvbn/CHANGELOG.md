@@ -1,3 +1,8 @@
+## 0.1.0+2
+
+ - **DOCS**: add info about related packages. ([9375bea2](https://github.com/inway/dart_zxcvbn/commit/9375bea256001850d7dcf89e4a8347da68666839))
+ - **DOCS**: add links to related packages. ([9d29c91d](https://github.com/inway/dart_zxcvbn/commit/9d29c91d04f12a67e775e6e6738eacb78b96492e))
+
 ## 0.1.0+1
 
  - **DOCS**: update descriptions of all packages. ([78a9fa76](https://github.com/inway/dart_zxcvbn/commit/78a9fa76f66eecbccd85bbe850dd2823f6a0aa0e))
