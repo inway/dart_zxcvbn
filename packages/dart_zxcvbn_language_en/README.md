@@ -16,6 +16,16 @@ rewrite of the original library [zxcvbn](https://github.com/dropbox/zxcvbn) from
 
 Please refer to documentation from [root package](https://github.com/inway/dart_zxcvbn).
 
+## Related packages
+
+| Package                     | Details                                                                                                                 |
+| --------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| dart_zxcvbn                 | [README](packages/dart_zxcvbn/README.md) \| [pub](https://pub.dev/packages/dart_zxcvbn)                                 |
+| dart_zxcvbn_language_common | [README](packages/dart_zxcvbn_language_common/README.md) \| [pub](https://pub.dev/packages/dart_zxcvbn_language_common) |
+| dart_zxcvbn_language_en     | [README](packages/dart_zxcvbn_language_en/README.md) \| [pub](https://pub.dev/packages/dart_zxcvbn_language_en)         |
+| dart_zxcvbn_language_pl     | [README](packages/dart_zxcvbn_language_pl/README.md) \| [pub](https://pub.dev/packages/dart_zxcvbn_language_pl)         |
+| flutter_password_scoring    | [README](packages/flutter_password_scoring/README.md) \| [pub](https://pub.dev/packages/flutter_password_scoring)       |
+
 ## License
 
 - see [LICENSE](https://github.com/inway/dart_zxcvbn/LICENSE)

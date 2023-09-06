@@ -16,14 +16,14 @@ rewrite of the original library [zxcvbn](https://github.com/dropbox/zxcvbn) from
 
 This is a melos managed monorepo containing the following packages:
 
-| Package                     | Status                | Details                                                                                                              |
-| --------------------------- | --------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| dart_zxcvbn                 | Partially implemented | [README](packages/dart_zxcvbn/README.md) [pub](https://pub.dev/packages/dart_zxcvbn)                                 |
-| dart_zxcvbn_language_common |                       | [README](packages/dart_zxcvbn_language_common/README.md) [pub](https://pub.dev/packages/dart_zxcvbn_language_common) |
-| dart_zxcvbn_language_en     |                       | [README](packages/dart_zxcvbn_language_en/README.md) [pub](https://pub.dev/packages/dart_zxcvbn_language_en)         |
-| dart_zxcvbn_language_pl     |                       | [README](packages/dart_zxcvbn_language_pl/README.md) [pub](https://pub.dev/packages/dart_zxcvbn_language_pl)         |
-| dart_zxcvbn_tools           | Internal use helpers  | [README](packages/dart_zxcvbn_tools/README.md) [pub](https://pub.dev/packages/dart_zxcvbn_tools)                     |
-| flutter_password_scoring    | Mostly implemented    | [README](packages/flutter_password_scoring/README.md) [pub](https://pub.dev/packages/flutter_password_scoring)       |
+| Package                     | Status                | Details                                                                                                                 |
+| --------------------------- | --------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| dart_zxcvbn                 | Partially implemented | [README](packages/dart_zxcvbn/README.md) \| [pub](https://pub.dev/packages/dart_zxcvbn)                                 |
+| dart_zxcvbn_language_common |                       | [README](packages/dart_zxcvbn_language_common/README.md) \| [pub](https://pub.dev/packages/dart_zxcvbn_language_common) |
+| dart_zxcvbn_language_en     |                       | [README](packages/dart_zxcvbn_language_en/README.md) \| [pub](https://pub.dev/packages/dart_zxcvbn_language_en)         |
+| dart_zxcvbn_language_pl     |                       | [README](packages/dart_zxcvbn_language_pl/README.md) \| [pub](https://pub.dev/packages/dart_zxcvbn_language_pl)         |
+| dart_zxcvbn_tools           | Internal use helpers  | [README](packages/dart_zxcvbn_tools/README.md) \| [pub](https://pub.dev/packages/dart_zxcvbn_tools)                     |
+| flutter_password_scoring    | Mostly implemented    | [README](packages/flutter_password_scoring/README.md) \| [pub](https://pub.dev/packages/flutter_password_scoring)       |
 
 ## Credits
 

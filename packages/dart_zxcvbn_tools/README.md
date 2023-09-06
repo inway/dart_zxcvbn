@@ -9,7 +9,7 @@
 
 ## Description
 
-This package is a Dart port of
+This package is a part of Dart port of
 [@zxcvbn-ts/zxcvbn](https://github.com/zxcvbn-ts/zxcvbn), which is a Typescript
 rewrite of the original library [zxcvbn](https://github.com/dropbox/zxcvbn) from
 [Dropbox](https://github.com/dropbox).

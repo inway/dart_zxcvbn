@@ -85,6 +85,16 @@ facade for `StreamBuilder`), and that's where the widget tree is constructed.
    );
    ```
 
+## Related packages
+
+| Package                     | Details                                                                                                                 |
+| --------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| dart_zxcvbn                 | [README](packages/dart_zxcvbn/README.md) \| [pub](https://pub.dev/packages/dart_zxcvbn)                                 |
+| dart_zxcvbn_language_common | [README](packages/dart_zxcvbn_language_common/README.md) \| [pub](https://pub.dev/packages/dart_zxcvbn_language_common) |
+| dart_zxcvbn_language_en     | [README](packages/dart_zxcvbn_language_en/README.md) \| [pub](https://pub.dev/packages/dart_zxcvbn_language_en)         |
+| dart_zxcvbn_language_pl     | [README](packages/dart_zxcvbn_language_pl/README.md) \| [pub](https://pub.dev/packages/dart_zxcvbn_language_pl)         |
+| flutter_password_scoring    | [README](packages/flutter_password_scoring/README.md) \| [pub](https://pub.dev/packages/flutter_password_scoring)       |
+
 ## License
 
 - see [LICENSE](https://github.com/inway/dart_zxcvbn/LICENSE)
