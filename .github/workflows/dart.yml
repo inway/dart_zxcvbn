@@ -22,7 +22,7 @@ jobs:
           cache: true
 
       - name: Dart pub cache
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         id: pub-cache
         with:
           path: ~/.pub-cache
