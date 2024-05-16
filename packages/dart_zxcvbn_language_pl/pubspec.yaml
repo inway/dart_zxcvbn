@@ -1,6 +1,6 @@
 name: dart_zxcvbn_language_pl
 description: The Polish language package for dart_zxcvbn, provides translated messages and dictionaries.
-version: 0.1.0+2
+version: 0.1.0+3
 homepage: https://github.com/inway/dart_zxcvbn
 repository: https://github.com/inway/dart_zxcvbn
 
@@ -8,7 +8,7 @@ environment:
   sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
-  dart_zxcvbn: ^0.1.0+2
+  dart_zxcvbn: ^0.1.0+3
   intl: any
 
 dev_dependencies:

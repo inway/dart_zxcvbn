@@ -1,3 +1,8 @@
+## 0.0.2+2
+
+ - **DOCS**: fix typo. ([7c4acda7](https://github.com/inway/dart_zxcvbn/commit/7c4acda71ae355a05c2e8d4882211ce72e16fbac))
+ - **DOCS**: use absolute urls for readme links. ([cffa4e6b](https://github.com/inway/dart_zxcvbn/commit/cffa4e6b2c5718c169b15758650a8a5108776395))
+
 ## 0.0.2+1
 
  - **FIX**: remove static modifier from controller. ([6ff6182a](https://github.com/inway/dart_zxcvbn/commit/6ff6182a23e68ac16e1ff1523785285a9ff4d4da))
