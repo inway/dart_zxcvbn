@@ -15,6 +15,25 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`dart_zxcvbn_language_pl` - `v0.1.0+4`](#dart_zxcvbn_language_pl---v0104)
+
+---
+
+#### `dart_zxcvbn_language_pl` - `v0.1.0+4`
+
+
+## 2024-05-16
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`dart_zxcvbn_language_en` - `v0.1.0+4`](#dart_zxcvbn_language_en---v0104)
 
 ---
