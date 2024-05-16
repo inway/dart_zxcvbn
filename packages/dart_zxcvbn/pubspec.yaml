@@ -12,5 +12,5 @@ dependencies:
 
 dev_dependencies:
   dart_zxcvbn_language_common: ^0.1.0+3
-  dart_zxcvbn_language_en: ^0.1.0+3
+  dart_zxcvbn_language_en: ^0.1.0+4
   test: ^1.21.0
