@@ -1,3 +1,7 @@
+## 0.1.0+3
+
+ - **DOCS**: use absolute urls for readme links. ([cffa4e6b](https://github.com/inway/dart_zxcvbn/commit/cffa4e6b2c5718c169b15758650a8a5108776395))
+
 ## 0.1.0+2
 
  - **DOCS**: add info about related packages. ([9375bea2](https://github.com/inway/dart_zxcvbn/commit/9375bea256001850d7dcf89e4a8347da68666839))

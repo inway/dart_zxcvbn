@@ -3,6 +3,48 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2024-05-16
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`dart_zxcvbn` - `v0.1.0+3`](#dart_zxcvbn---v0103)
+ - [`dart_zxcvbn_language_common` - `v0.1.0+3`](#dart_zxcvbn_language_common---v0103)
+ - [`dart_zxcvbn_language_en` - `v0.1.0+3`](#dart_zxcvbn_language_en---v0103)
+ - [`dart_zxcvbn_language_pl` - `v0.1.0+3`](#dart_zxcvbn_language_pl---v0103)
+ - [`flutter_password_scoring` - `v0.0.2+2`](#flutter_password_scoring---v0022)
+
+---
+
+#### `dart_zxcvbn` - `v0.1.0+3`
+
+ - **DOCS**: use absolute urls for readme links. ([cffa4e6b](https://github.com/inway/dart_zxcvbn/commit/cffa4e6b2c5718c169b15758650a8a5108776395))
+
+#### `dart_zxcvbn_language_common` - `v0.1.0+3`
+
+ - **DOCS**: use absolute urls for readme links. ([cffa4e6b](https://github.com/inway/dart_zxcvbn/commit/cffa4e6b2c5718c169b15758650a8a5108776395))
+
+#### `dart_zxcvbn_language_en` - `v0.1.0+3`
+
+ - **DOCS**: use absolute urls for readme links. ([cffa4e6b](https://github.com/inway/dart_zxcvbn/commit/cffa4e6b2c5718c169b15758650a8a5108776395))
+
+#### `dart_zxcvbn_language_pl` - `v0.1.0+3`
+
+ - **DOCS**: use absolute urls for readme links. ([cffa4e6b](https://github.com/inway/dart_zxcvbn/commit/cffa4e6b2c5718c169b15758650a8a5108776395))
+
+#### `flutter_password_scoring` - `v0.0.2+2`
+
+ - **DOCS**: fix typo. ([7c4acda7](https://github.com/inway/dart_zxcvbn/commit/7c4acda71ae355a05c2e8d4882211ce72e16fbac))
+ - **DOCS**: use absolute urls for readme links. ([cffa4e6b](https://github.com/inway/dart_zxcvbn/commit/cffa4e6b2c5718c169b15758650a8a5108776395))
+
+
 ## 2023-09-06
 
 ### Changes
