@@ -1,3 +1,7 @@
+## 0.1.0+4
+
+ - Update a dependency to the latest release.
+
 ## 0.1.0+3
 
  - **DOCS**: use absolute urls for readme links. ([cffa4e6b](https://github.com/inway/dart_zxcvbn/commit/cffa4e6b2c5718c169b15758650a8a5108776395))

@@ -1,3 +1,7 @@
+## 0.0.2+3
+
+ - Update a dependency to the latest release.
+
 ## 0.0.2+2
 
  - **DOCS**: fix typo. ([7c4acda7](https://github.com/inway/dart_zxcvbn/commit/7c4acda71ae355a05c2e8d4882211ce72e16fbac))

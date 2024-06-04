@@ -3,6 +3,40 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2024-06-04
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`dart_zxcvbn` - `v0.1.0+4`](#dart_zxcvbn---v0104)
+ - [`flutter_password_scoring` - `v0.0.2+3`](#flutter_password_scoring---v0023)
+ - [`dart_zxcvbn_language_common` - `v0.1.0+4`](#dart_zxcvbn_language_common---v0104)
+ - [`dart_zxcvbn_language_pl` - `v0.1.0+5`](#dart_zxcvbn_language_pl---v0105)
+ - [`dart_zxcvbn_language_en` - `v0.1.0+5`](#dart_zxcvbn_language_en---v0105)
+
+Packages with dependency updates only:
+
+> Packages listed below depend on other packages in this workspace that have had changes. Their versions have been incremented to bump the minimum dependency versions of the packages they depend upon in this project.
+
+ - `flutter_password_scoring` - `v0.0.2+3`
+ - `dart_zxcvbn_language_common` - `v0.1.0+4`
+ - `dart_zxcvbn_language_pl` - `v0.1.0+5`
+ - `dart_zxcvbn_language_en` - `v0.1.0+5`
+
+---
+
+#### `dart_zxcvbn` - `v0.1.0+4`
+
+ - **FIX**: properly handle case when spatial matcher receives estimated guess in feedback. ([7206342d](https://github.com/inway/dart_zxcvbn/commit/7206342d567174395bf2f07ca306198d796f79be))
+
+
 ## 2024-05-16
 
 ### Changes

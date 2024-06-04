@@ -1,3 +1,7 @@
+## 0.1.0+4
+
+ - **FIX**: properly handle case when spatial matcher receives estimated guess in feedback. ([7206342d](https://github.com/inway/dart_zxcvbn/commit/7206342d567174395bf2f07ca306198d796f79be))
+
 ## 0.1.0+3
 
  - **DOCS**: use absolute urls for readme links. ([cffa4e6b](https://github.com/inway/dart_zxcvbn/commit/cffa4e6b2c5718c169b15758650a8a5108776395))

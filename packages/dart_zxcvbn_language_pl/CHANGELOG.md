@@ -1,3 +1,7 @@
+## 0.1.0+5
+
+ - Update a dependency to the latest release.
+
 ## 0.1.0+4
 
  - **FIX**: update intl dependency to ">=0.18.0 <=0.19.0" to support Flutter v3.22
