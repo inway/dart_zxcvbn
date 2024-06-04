@@ -51,7 +51,7 @@ jobs:
         run: melos bootstrap
 
       - name: Build Flutter Web application
-        run: flutter build web --wasm --release
+        run: flutter build web --wasm --release --base-href /dart_zxcvbn/
         working-directory: packages/flutter_password_scoring/example
 
       - name: Upload artifact
