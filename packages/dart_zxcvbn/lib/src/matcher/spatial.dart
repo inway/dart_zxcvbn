@@ -219,12 +219,8 @@ class SpatialMatcher extends Matcher {
 
   @override
   Feedback? feedback(EstimatedGuessesMixin match, bool isSoleMatch) {
-    if (match is! SpatialGuess) {
-      throw ArgumentError('match is not a SpatialGuess');
-    }
-
     String warning = zxcvbn.options.translations.warnings.keyPattern;
-    if (match.turns == 1) {
+    if (match is SpatialGuess && match.turns == 1) {
       warning = zxcvbn.options.translations.warnings.straightRow;
     }
 
