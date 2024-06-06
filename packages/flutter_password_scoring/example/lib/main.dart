@@ -9,6 +9,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_password_scoring/flutter_password_scoring.dart';
 
+import 'results_table.dart';
+
 // This example will use all currently available language packages
 final langCommon = LanguageCommon();
 final langEn = LanguageEn();
@@ -171,8 +173,6 @@ class _MainAppState extends State<MainApp> {
                       Result? data,
                       PasswordScoringHandler handler,
                     ) {
-                      final TextTheme theme = Theme.of(context).textTheme;
-
                       return Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         mainAxisSize: MainAxisSize.min,
@@ -185,33 +185,8 @@ class _MainAppState extends State<MainApp> {
                               border: OutlineInputBorder(),
                             ),
                           ),
-                          const SizedBox(
-                            height: 16,
-                          ),
-                          if (data != null)
-                            Column(
-                              children: [
-                                Text('Password: ${data.password}'),
-                                Text('Score: ${data.score} / 4'),
-                                Text('guessesLog10: ${data.guessesLog10}'),
-                                Text('guesses: ${data.guesses}'),
-                                if (data.feedback.warning != null)
-                                  Text(
-                                    'Warning:',
-                                    style: theme.titleMedium,
-                                  ),
-                                if (data.feedback.warning != null)
-                                  Text(data.feedback.warning!),
-                                const SizedBox(height: 8),
-                                Text(
-                                  'Suggestions:',
-                                  style: theme.titleMedium,
-                                ),
-                                for (var suggestion
-                                    in data.feedback.suggestions)
-                                  Text(suggestion),
-                              ],
-                            ),
+                          const SizedBox(height: 32),
+                          if (data != null) ResultTable(result: data),
                         ],
                       );
                     },
