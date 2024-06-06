@@ -74,7 +74,9 @@ class PasswordScoringHandler {
   ///
   /// It is used when some side settings change, such as [Locale] to re-run
   /// password scoring with new settings.
-  late ScoringRequest _lastRequest;
+  ScoringRequest _lastRequest = ScoringRequest(
+    password: '',
+  );
 
   /// This method is used to initialize handler.
   ///
