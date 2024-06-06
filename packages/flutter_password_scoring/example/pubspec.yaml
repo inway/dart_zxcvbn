@@ -1,5 +1,5 @@
 name: example
-description: "An example showing password scoring."
+description: "An example showing password scoring with dart_zxcvbn."
 publish_to: "none"
 version: 0.1.0
 
@@ -9,11 +9,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_localizations:
+    sdk: flutter
   flutter_password_scoring:
     path: ../
-  dart_zxcvbn: ^0.1.0+3
-  dart_zxcvbn_language_common: ^0.1.0+3
-  dart_zxcvbn_language_en: ^0.1.0+4
+  dart_zxcvbn: ^0.1.0+4
+  dart_zxcvbn_language_common: ^0.1.0+4
+  dart_zxcvbn_language_en: ^0.1.0+5
+  dart_zxcvbn_language_pl: ^0.1.0+5
 
 dev_dependencies:
   flutter_test:

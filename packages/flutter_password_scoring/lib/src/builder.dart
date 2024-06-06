@@ -1,15 +1,14 @@
 import 'package:dart_zxcvbn/dart_zxcvbn.dart';
 import 'package:flutter/widgets.dart';
 
-import 'helper.dart';
+import 'handler.dart';
 import 'message.dart';
 
-/// Simple wrapper for [StreamBuilder] to simplify the usage of
+/// Simple wrapper for [StreamBuilder] to simplify usage of
 /// [PasswordScoringHelper].
 ///
-/// It takes cate of initiaizing the [PasswordScoringHelper] and disposing it
-/// when the widget is disposed. It also watches for changes in the [Locale] and
-/// sends it to the [PasswordScoringHandler].
+/// It will automatically initialize and dispose the choosen
+/// [PasswordScoringHandler].
 class PasswordScoringBuilder extends StatefulWidget {
   const PasswordScoringBuilder({
     super.key,
@@ -21,7 +20,7 @@ class PasswordScoringBuilder extends StatefulWidget {
   final Widget Function(
     BuildContext,
     Result?,
-    PasswordScoringHelper helper,
+    PasswordScoringHandler handler,
   ) builder;
   final PasswordScoringHandler handler;
   final Widget? loadingPlaceholder;
@@ -31,18 +30,16 @@ class PasswordScoringBuilder extends StatefulWidget {
 }
 
 class _PasswordScoringBuilderState extends State<PasswordScoringBuilder> {
-  final PasswordScoringHelper _passwordScoringHelper = PasswordScoringHelper();
-
   @override
   void initState() {
     super.initState();
 
-    _passwordScoringHelper.init(widget.handler);
+    widget.handler.init();
   }
 
   @override
   void dispose() {
-    _passwordScoringHelper.stop();
+    widget.handler.stop();
 
     super.dispose();
   }
@@ -51,12 +48,12 @@ class _PasswordScoringBuilderState extends State<PasswordScoringBuilder> {
   Widget build(BuildContext context) {
     final locale = Localizations.localeOf(context);
 
-    if (_passwordScoringHelper.locale != locale) {
-      _passwordScoringHelper.locale = locale;
+    if (widget.handler.locale != locale) {
+      widget.handler.locale = locale;
     }
 
     return StreamBuilder(
-      stream: _passwordScoringHelper.stream,
+      stream: widget.handler.stream,
       builder: (
         BuildContext context,
         AsyncSnapshot<PasswordScoringMessage> snapshot,
@@ -65,9 +62,9 @@ class _PasswordScoringBuilderState extends State<PasswordScoringBuilder> {
               ? widget.builder(
                   context,
                   snapshot.data?.result,
-                  _passwordScoringHelper,
+                  widget.handler,
                 )
-              : widget.loadingPlaceholder ?? const SizedBox.shrink(),
+              : (widget.loadingPlaceholder ?? const SizedBox.shrink()),
     );
   }
 }
