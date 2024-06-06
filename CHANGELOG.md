@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2024-06-06
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - [`flutter_password_scoring` - `v0.1.0`](#flutter_password_scoring---v010)
+
+Packages with other changes:
+
+ - There are no other changes in this release.
+
+---
+
+#### `flutter_password_scoring` - `v0.1.0`
+
+ - **BREAKING** **FEAT**: add default foreground handler. ([eab329d5](https://github.com/inway/dart_zxcvbn/commit/eab329d508bb16826cfa4c6056e0a84d9815b037))
+
+
 ## 2024-06-04
 
 ### Changes

@@ -1,3 +1,9 @@
+## 0.1.0
+
+> Note: This release has breaking changes.
+
+ - **BREAKING** **FEAT**: add default foreground handler. ([eab329d5](https://github.com/inway/dart_zxcvbn/commit/eab329d508bb16826cfa4c6056e0a84d9815b037))
+
 ## 0.0.2+3
 
  - Update a dependency to the latest release.
