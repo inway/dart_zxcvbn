@@ -92,6 +92,7 @@ class MainApp extends StatefulWidget {
 
 class _MainAppState extends State<MainApp> {
   Locale locale = supportedLocales.first;
+  List<String> userInputs = [];
 
   late final PasswordScoringHandler handler;
 
@@ -119,6 +120,11 @@ class _MainAppState extends State<MainApp> {
       colorSchemeSeed: seedColor,
     );
 
+    const fieldInsets = EdgeInsets.symmetric(
+      horizontal: 0,
+      vertical: 16,
+    );
+
     return MaterialApp(
       darkTheme: darkThemeData,
       theme: lightThemeData,
@@ -134,12 +140,27 @@ class _MainAppState extends State<MainApp> {
           padding: const EdgeInsets.all(32.0),
           child: Center(
             child: ConstrainedBox(
-              constraints: const BoxConstraints(maxWidth: 400),
+              constraints: const BoxConstraints(maxWidth: 600),
               child: Column(
                 mainAxisSize: MainAxisSize.min,
                 mainAxisAlignment: MainAxisAlignment.start,
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
+                  Container(
+                    padding: fieldInsets,
+                    child: TextField(
+                      onChanged: (String value) {
+                        setState(() {
+                          userInputs = value.split(',');
+                        });
+                      },
+                      decoration: const InputDecoration(
+                        labelText: 'User inputs',
+                        helperText: 'Comma separated list of user inputs',
+                        border: OutlineInputBorder(),
+                      ),
+                    ),
+                  ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     mainAxisSize: MainAxisSize.max,
@@ -148,7 +169,7 @@ class _MainAppState extends State<MainApp> {
                         child: DropdownMenu<Locale>(
                           initialSelection: locale,
                           label: const Text('Locale'),
-                          expandedInsets: EdgeInsets.zero,
+                          expandedInsets: fieldInsets,
                           onSelected: (Locale? value) {
                             if (value == null) return;
 
@@ -179,7 +200,12 @@ class _MainAppState extends State<MainApp> {
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
                           TextField(
-                            onChanged: handler.update,
+                            onChanged: (String password) {
+                              handler.update(
+                                password,
+                                userInputs: userInputs,
+                              );
+                            },
                             decoration: const InputDecoration(
                               labelText: 'Password',
                               border: OutlineInputBorder(),
