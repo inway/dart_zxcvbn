@@ -18,8 +18,8 @@ typedef PasswordScoringIsolateHandlerHandler = Future<void> Function(SendPort);
 ///
 /// It will initialize the [zxcvbn] with the default options and then wait for
 /// [Locale] or [String] messages. When it receives a [Locale] message it will
-/// update the [Options] of [zxcvbn] and when it receives a [String] message it
-/// will calculate the score and send the [Result] message back.
+/// update the [Options] of [zxcvbn] and when it receives a [ScoringRequest]
+/// message it will calculate the score and send the [Result] message back.
 Future<void> defaultIsolateHandler(SendPort sendPort) async {
   ReceivePort receivePort = ReceivePort();
 
@@ -38,16 +38,22 @@ Future<void> defaultIsolateHandler(SendPort sendPort) async {
   ));
 
   // Used to refresh response when locale changes
-  String lastPassword = '';
+  ScoringRequest? lastRequest;
 
   await for (var message in receivePort) {
     if (message is Locale) {
       // Default handler doesn't support switching locales
-    } else if (message is String) {
-      lastPassword = message;
+    } else if (message is ScoringRequest) {
+      lastRequest = message;
     }
 
-    sendPort.send(zxcvbn(lastPassword));
+    if (lastRequest != null) {
+      sendPort.send(zxcvbn(
+        lastRequest.password,
+        options: lastRequest.options,
+        userInputs: lastRequest.userInputs,
+      ));
+    }
   }
 }
 
@@ -123,9 +129,17 @@ final class PasswordScoringIsolateHandler extends PasswordScoringHandler {
     super.stop();
   }
 
-  /// Sends the password to the [Isolate] to calculate the score.
+  /// Sends the [ScoringRequest] to the [Isolate] to calculate the score.
   @override
-  void update(String password) {
-    _requestStream?.send(password);
+  void update(
+    String password, {
+    List<String>? userInputs,
+    Options? options,
+  }) {
+    _requestStream?.send(ScoringRequest(
+      password: password,
+      userInputs: userInputs,
+      options: options,
+    ));
   }
 }

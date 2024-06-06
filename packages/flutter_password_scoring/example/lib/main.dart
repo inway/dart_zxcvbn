@@ -50,18 +50,22 @@ Future<void> localeAwareHandler(SendPort sendPort) async {
   zxcvbn.setOptions(getLocaleOptions());
 
   // Used to refresh response for last password when locale changes
-  String lastPassword = '';
+  ScoringRequest? lastRequest;
 
   await for (var message in receivePort) {
     if (message is Locale) {
       zxcvbn.setOptions(getLocaleOptions(message));
-    } else if (message is String) {
-      lastPassword = message;
+    } else if (message is ScoringRequest) {
+      lastRequest = message;
     }
 
-    final result = zxcvbn(lastPassword);
-
-    sendPort.send(result);
+    if (lastRequest != null) {
+      sendPort.send(zxcvbn(
+        lastRequest.password,
+        options: lastRequest.options,
+        userInputs: lastRequest.userInputs,
+      ));
+    }
   }
 }
 

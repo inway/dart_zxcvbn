@@ -5,6 +5,21 @@ import 'package:dart_zxcvbn/dart_zxcvbn.dart';
 
 import 'message.dart';
 
+/// This is the request object for password scoring.
+///
+/// It contains the password to score and optional user inputs and options.
+class ScoringRequest {
+  ScoringRequest({
+    required this.password,
+    this.userInputs,
+    this.options,
+  });
+
+  final String password;
+  final List<String>? userInputs;
+  final Options? options;
+}
+
 /// This is default handler for password scoring. It calls [zxcvbn] method
 /// directly in foreground. When possible, use [PasswordScoringIsolateHandler]
 /// which uses [Isolate] to offload the work to a separate thread.
@@ -55,11 +70,11 @@ class PasswordScoringHandler {
     }
   }
 
-  /// This variable is used to store the last password.
+  /// This variable is used to store the last scoring request.
   ///
-  /// It is used when some other properties change, such as [Locale] to re-run
+  /// It is used when some side settings change, such as [Locale] to re-run
   /// password scoring with new settings.
-  String _lastPassword = '';
+  late ScoringRequest _lastRequest;
 
   /// This method is used to initialize handler.
   ///
@@ -82,14 +97,26 @@ class PasswordScoringHandler {
   /// Called every time the password changes.
   ///
   /// It stores last password and then calls real update method.
-  void update(String password) {
-    _lastPassword = password;
+  void update(
+    String password, {
+    List<String>? userInputs,
+    Options? options,
+  }) {
+    _lastRequest = ScoringRequest(
+      password: password,
+      userInputs: userInputs,
+      options: options,
+    );
 
     _updateScoring();
   }
 
   Result _updateScoring() {
-    final Result result = zxcvbn(_lastPassword);
+    final Result result = zxcvbn(
+      _lastRequest.password,
+      userInputs: _lastRequest.userInputs,
+      options: _lastRequest.options,
+    );
 
     controller.sink.add(PasswordScoringMessage(result: result));
 
