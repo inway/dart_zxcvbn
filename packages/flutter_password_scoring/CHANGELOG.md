@@ -1,3 +1,8 @@
+## 0.2.0+1
+
+ - **FIX**(docs): update README.md for flutter_password_scoring. ([097bab2b](https://github.com/inway/dart_zxcvbn/commit/097bab2b637f434ecc908e4b06889ea691715375))
+ - **FIX**(example): don't use late modifier, use empty password instead. ([a8a19d2d](https://github.com/inway/dart_zxcvbn/commit/a8a19d2d39559861a223d2d358a6eece42bd6acc))
+
 ## 0.2.0
 
 > Note: This release has breaking changes.

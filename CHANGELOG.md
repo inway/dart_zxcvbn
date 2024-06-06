@@ -11,6 +11,28 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 Packages with breaking changes:
 
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`flutter_password_scoring` - `v0.2.0+1`](#flutter_password_scoring---v0201)
+
+---
+
+#### `flutter_password_scoring` - `v0.2.0+1`
+
+ - **FIX**(docs): update README.md for flutter_password_scoring. ([097bab2b](https://github.com/inway/dart_zxcvbn/commit/097bab2b637f434ecc908e4b06889ea691715375))
+ - **FIX**(example): don't use late modifier, use empty password instead. ([a8a19d2d](https://github.com/inway/dart_zxcvbn/commit/a8a19d2d39559861a223d2d358a6eece42bd6acc))
+
+
+## 2024-06-06
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
  - [`flutter_password_scoring` - `v0.2.0`](#flutter_password_scoring---v020)
 
 Packages with other changes:
