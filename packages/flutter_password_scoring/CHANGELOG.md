@@ -1,3 +1,9 @@
+## 0.2.0
+
+> Note: This release has breaking changes.
+
+ - **BREAKING** **FEAT**: support user inputs & options override. ([12b105b4](https://github.com/inway/dart_zxcvbn/commit/12b105b447500dbfd69b87f1a3066794944e323a))
+
 ## 0.1.0
 
 > Note: This release has breaking changes.

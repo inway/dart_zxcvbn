@@ -11,6 +11,27 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 Packages with breaking changes:
 
+ - [`flutter_password_scoring` - `v0.2.0`](#flutter_password_scoring---v020)
+
+Packages with other changes:
+
+ - There are no other changes in this release.
+
+---
+
+#### `flutter_password_scoring` - `v0.2.0`
+
+ - **BREAKING** **FEAT**: support user inputs & options override. ([12b105b4](https://github.com/inway/dart_zxcvbn/commit/12b105b447500dbfd69b87f1a3066794944e323a))
+
+
+## 2024-06-06
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
  - [`flutter_password_scoring` - `v0.1.0`](#flutter_password_scoring---v010)
 
 Packages with other changes:
