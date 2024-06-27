@@ -48,11 +48,12 @@ Future<void> defaultIsolateHandler(SendPort sendPort) async {
     }
 
     if (lastRequest != null) {
-      sendPort.send(zxcvbn(
+      final Result result = zxcvbn(
         lastRequest.password,
         options: lastRequest.options,
         userInputs: lastRequest.userInputs,
-      ));
+      );
+      sendPort.send(result);
     }
   }
 }
@@ -136,10 +137,11 @@ final class PasswordScoringIsolateHandler extends PasswordScoringHandler {
     List<String>? userInputs,
     Options? options,
   }) {
-    _requestStream?.send(ScoringRequest(
+    final scoringRequest = ScoringRequest(
       password: password,
       userInputs: userInputs,
       options: options,
-    ));
+    );
+    _requestStream?.send(scoringRequest);
   }
 }
