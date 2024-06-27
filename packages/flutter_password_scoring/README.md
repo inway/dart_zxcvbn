@@ -23,10 +23,15 @@ Use `PasswordScoringBuilder` to build your UI. Take a look at example code if
 you wan't to customize dictionaries and other options based on `Locale`.
 
 ```dart
-PasswordScoringBuilder(
-  handler: kIsWeb
+/// Keep in mind that when using Isolate based handler it's
+/// crucial to keep it final in state, so it won't be
+/// recreated on every call to [build].
+final handler = kIsWeb
     ? PasswordScoringHandler()
-    : PasswordScoringIsolateHandler(),
+    : PasswordScoringIsolateHandler();
+
+PasswordScoringBuilder(
+  handler: handler,
   loadingPlaceholder: const Center(
     child: CircularProgressIndicator(),
   ),
