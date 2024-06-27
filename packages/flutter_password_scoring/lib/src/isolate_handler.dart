@@ -20,6 +20,7 @@ typedef PasswordScoringIsolateHandlerHandler = Future<void> Function(SendPort);
 /// [Locale] or [String] messages. When it receives a [Locale] message it will
 /// update the [Options] of [zxcvbn] and when it receives a [ScoringRequest]
 /// message it will calculate the score and send the [Result] message back.
+@pragma('vm:entry-point')
 Future<void> defaultIsolateHandler(SendPort sendPort) async {
   ReceivePort receivePort = ReceivePort();
 
