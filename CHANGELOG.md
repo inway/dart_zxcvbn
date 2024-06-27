@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2024-06-27
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`flutter_password_scoring` - `v0.2.0+2`](#flutter_password_scoring---v0202)
+
+---
+
+#### `flutter_password_scoring` - `v0.2.0+2`
+
+ - **REFACTOR**: improve password scoring example. ([bd311ad5](https://github.com/inway/dart_zxcvbn/commit/bd311ad535779829be2bb7c7c9e6a50342c3d582))
+ - **FIX**: add missing pragma for defaultIsolateHandler. ([e01f69ee](https://github.com/inway/dart_zxcvbn/commit/e01f69eebb211f925ba55d7373c478cfff9a7ef0))
+
+
 ## 2024-06-06
 
 ### Changes

@@ -1,3 +1,8 @@
+## 0.2.0+2
+
+ - **REFACTOR**: improve password scoring example. ([bd311ad5](https://github.com/inway/dart_zxcvbn/commit/bd311ad535779829be2bb7c7c9e6a50342c3d582))
+ - **FIX**: add missing pragma for defaultIsolateHandler. ([e01f69ee](https://github.com/inway/dart_zxcvbn/commit/e01f69eebb211f925ba55d7373c478cfff9a7ef0))
+
 ## 0.2.0+1
 
  - **FIX**(docs): update README.md for flutter_password_scoring. ([097bab2b](https://github.com/inway/dart_zxcvbn/commit/097bab2b637f434ecc908e4b06889ea691715375))
