@@ -62,11 +62,12 @@ Future<void> localeAwareHandler(SendPort sendPort) async {
     }
 
     if (lastRequest != null) {
-      sendPort.send(zxcvbn(
+      final Result result = zxcvbn(
         lastRequest.password,
         options: lastRequest.options,
         userInputs: lastRequest.userInputs,
-      ));
+      );
+      sendPort.send(result);
     }
   }
 }
